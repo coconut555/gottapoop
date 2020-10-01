@@ -1,0 +1,17 @@
+body {
+  background: #000000;
+  font-family: Comic Sans MS, Charcoal, sans-serif;
+  color:White;
+  
+  .column {
+	  float: left;
+	  width: 50%;
+	  padding: 5px;
+  }
+  
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+}
